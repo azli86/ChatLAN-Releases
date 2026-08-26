@@ -1,5 +1,7 @@
 # ChatLAN
 
+![ChatLAN — Fast local chat. Your network. Your data.](assets/chatlan-banner.png)
+
 ChatLAN is a friendly Windows desktop chat application for people connected to the same local network. It automatically discovers nearby ChatLAN users, allows direct messaging and supports local file transfers without requiring a central chat account.
 
 > This public repository contains official Windows installers and update metadata only. The ChatLAN application source code is maintained in a separate private repository. GitHub's automatically generated **Source code (zip/tar.gz)** files contain only this release repository's README and do not contain the private application source.
