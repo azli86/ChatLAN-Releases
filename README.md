@@ -10,11 +10,11 @@ ChatLAN is a friendly Windows desktop chat application for people connected to t
 
 Download the latest version from the [ChatLAN Releases page](https://github.com/azli86/ChatLAN-Releases/releases/latest).
 
-Current release: **ChatLAN 2.14.06 for Windows x64**
+Current release: **ChatLAN 2.14.07 for Windows x64**
 
-- [Download ChatLAN Setup 2.14.06](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.14.06/ChatLAN.Setup.2.14.06.exe)
-- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.14.06/ChatLAN.Setup.2.14.06.exe.sha256)
-- SHA-256: `67cb19e41ad904b5f2365305e47df90784dce6a6fbea98666e99a917959ab099`
+- [Download ChatLAN Setup 2.14.07](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.14.07/ChatLAN.Setup.2.14.07.exe)
+- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.14.07/ChatLAN.Setup.2.14.07.exe.sha256)
+- SHA-256: `c54939e18593a2761949ba1fb3e8d792c63e3697e2b4fcd1cd683aa4b372ee56`
 
 ## Main features
 
@@ -78,7 +78,7 @@ Formatting or reinstalling Windows can remove locally stored chat data. Create c
 In PowerShell, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.14.06.exe"
+Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.14.07.exe"
 ```
 
 Expected SHA-256 for ChatLAN 2.14.0:
