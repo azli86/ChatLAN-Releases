@@ -10,16 +10,18 @@ ChatLAN is a friendly Windows desktop chat application for people connected to t
 
 Download the latest version from the [ChatLAN Releases page](https://github.com/azli86/ChatLAN-Releases/releases/latest).
 
-Current release: **ChatLAN 2.11.0 for Windows x64**
+Current release: **ChatLAN 2.12.0 for Windows x64**
 
-- [Download ChatLAN Setup 2.11.0](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.11.0/ChatLAN.Setup.2.11.0.exe)
-- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.11.0/ChatLAN.Setup.2.11.0.exe.sha256)
+- [Download ChatLAN Setup 2.12.0](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.12.0/ChatLAN.Setup.2.12.0.exe)
+- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.12.0/ChatLAN.Setup.2.12.0.exe.sha256)
 
 ## Main features
 
 - Automatic discovery of ChatLAN users on the same LAN/Wi-Fi network
 - Direct local-network messaging and locally stored chat history
 - Persistent conversation list: previous chats remain readable when contacts are offline
+- Offline text-message queue with automatic delivery when a previous contact returns online
+- Local contact deletion with persistent hiding and safe restoration on a new incoming message
 - Delete individual messages or complete history locally, with two-way deletion while both users are online
 - File transfer with recipient acceptance, sender cancellation and transfer progress
 - Drag-and-drop attachments and inline preview for supported images/media
@@ -73,13 +75,13 @@ Formatting or reinstalling Windows can remove locally stored chat data. Create c
 In PowerShell, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.11.0.exe"
+Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.12.0.exe"
 ```
 
-Expected SHA-256 for ChatLAN 2.11.0:
+Expected SHA-256 for ChatLAN 2.12.0:
 
 ```text
-7D316E0AF326D9A8E8E6EEF41B4CAC5850555D3AAE421DA784A6074004FF4508
+5E54CAEC7D767A825972F0C872F451E85D342FE58C46A3EE6964D2BE835D261F
 ```
 
 ## Support and testing
