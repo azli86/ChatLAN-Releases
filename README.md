@@ -10,16 +10,17 @@ ChatLAN is a friendly Windows desktop chat application for people connected to t
 
 Download the latest version from the [ChatLAN Releases page](https://github.com/azli86/ChatLAN-Releases/releases/latest).
 
-Current release: **ChatLAN 2.10.1 for Windows x64**
+Current release: **ChatLAN 2.11.0 for Windows x64**
 
-- [Download ChatLAN Setup 2.10.1](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.10.1/ChatLAN.Setup.2.10.1.exe)
-- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.10.1/ChatLAN.Setup.2.10.1.exe.sha256)
+- [Download ChatLAN Setup 2.11.0](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.11.0/ChatLAN.Setup.2.11.0.exe)
+- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.11.0/ChatLAN.Setup.2.11.0.exe.sha256)
 
 ## Main features
 
 - Automatic discovery of ChatLAN users on the same LAN/Wi-Fi network
 - Direct local-network messaging and locally stored chat history
 - Persistent conversation list: previous chats remain readable when contacts are offline
+- Delete individual messages or complete history locally, with two-way deletion while both users are online
 - File transfer with recipient acceptance, sender cancellation and transfer progress
 - Drag-and-drop attachments and inline preview for supported images/media
 - Automatic PDF cards, an integrated PDF viewer/editor and the ability to send an edited PDF back to the same user
@@ -33,6 +34,7 @@ Current release: **ChatLAN 2.10.1 for Windows x64**
 - Optional application PIN
 - Optional universal external JSON API configuration using a user-supplied base URL
 - Built-in update checking through official GitHub Releases
+- Visible update download progress with percentage, MB count, verification status and retry
 
 ## System requirements
 
@@ -71,13 +73,13 @@ Formatting or reinstalling Windows can remove locally stored chat data. Create c
 In PowerShell, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.10.1.exe"
+Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.11.0.exe"
 ```
 
-Expected SHA-256 for ChatLAN 2.10.1:
+Expected SHA-256 for ChatLAN 2.11.0:
 
 ```text
-0DFA2F71E57437528E35557C318F863147083A5B257ADB8EED26F1212940F601
+7D316E0AF326D9A8E8E6EEF41B4CAC5850555D3AAE421DA784A6074004FF4508
 ```
 
 ## Support and testing
