@@ -10,10 +10,10 @@ ChatLAN is a friendly Windows desktop chat application for people connected to t
 
 Download the latest version from the [ChatLAN Releases page](https://github.com/azli86/ChatLAN-Releases/releases/latest).
 
-Current release: **ChatLAN 2.12.0 for Windows x64**
+Current release: **ChatLAN 2.12.1 for Windows x64**
 
-- [Download ChatLAN Setup 2.12.0](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.12.0/ChatLAN.Setup.2.12.0.exe)
-- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.12.0/ChatLAN.Setup.2.12.0.exe.sha256)
+- [Download ChatLAN Setup 2.12.1](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.12.1/ChatLAN.Setup.2.12.1.exe)
+- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.12.1/ChatLAN.Setup.2.12.1.exe.sha256)
 
 ## Main features
 
@@ -22,6 +22,7 @@ Current release: **ChatLAN 2.12.0 for Windows x64**
 - Persistent conversation list: previous chats remain readable when contacts are offline
 - Offline text-message queue with automatic delivery when a previous contact returns online
 - Local contact deletion with persistent hiding and safe restoration on a new incoming message
+- User and Windows PC details retained in chat history for reliable offline conversations
 - Delete individual messages or complete history locally, with two-way deletion while both users are online
 - File transfer with recipient acceptance, sender cancellation and transfer progress
 - Drag-and-drop attachments and inline preview for supported images/media
@@ -75,13 +76,13 @@ Formatting or reinstalling Windows can remove locally stored chat data. Create c
 In PowerShell, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.12.0.exe"
+Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.12.1.exe"
 ```
 
-Expected SHA-256 for ChatLAN 2.12.0:
+Expected SHA-256 for ChatLAN 2.12.1:
 
 ```text
-5E54CAEC7D767A825972F0C872F451E85D342FE58C46A3EE6964D2BE835D261F
+777AE55FF05750F921D3DDBA7D5EA5A2E3891B81C09AD3E90B8714CFCE5D3C04
 ```
 
 ## Support and testing
