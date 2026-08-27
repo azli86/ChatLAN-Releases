@@ -10,10 +10,10 @@ ChatLAN is a friendly Windows desktop chat application for people connected to t
 
 Download the latest version from the [ChatLAN Releases page](https://github.com/azli86/ChatLAN-Releases/releases/latest).
 
-Current release: **ChatLAN 2.9.3 for Windows x64**
+Current release: **ChatLAN 2.10.0 for Windows x64**
 
-- [Download ChatLAN Setup 2.9.3](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.9.3/ChatLAN.Setup.2.9.3.exe)
-- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.9.3/ChatLAN.Setup.2.9.3.exe.sha256)
+- [Download ChatLAN Setup 2.10.0](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.10.0/ChatLAN.Setup.2.10.0.exe)
+- [Download SHA-256 checksum](https://github.com/azli86/ChatLAN-Releases/releases/download/v2.10.0/ChatLAN.Setup.2.10.0.exe.sha256)
 
 ## Main features
 
@@ -21,6 +21,7 @@ Current release: **ChatLAN 2.9.3 for Windows x64**
 - Direct local-network messaging and locally stored chat history
 - File transfer with recipient acceptance, sender cancellation and transfer progress
 - Drag-and-drop attachments and inline preview for supported images/media
+- Automatic PDF cards, an integrated PDF viewer/editor and the ability to send an edited PDF back to the same user
 - User profile picture, availability status and user information
 - Emoji picker, message search and chat-history backup
 - Light, dark and multiple colour themes, including Batman, Windows and Apple-inspired themes
@@ -69,13 +70,13 @@ Formatting or reinstalling Windows can remove locally stored chat data. Create c
 In PowerShell, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.9.3.exe"
+Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.10.0.exe"
 ```
 
-Expected SHA-256 for ChatLAN 2.9.3:
+Expected SHA-256 for ChatLAN 2.10.0:
 
 ```text
-20C63E211B8F74B23F2BF7DDB452D0342B28935D90E094421C07077061C2A3A9
+4D1E32BADCB42DFE223B002F7DFE5CD1B2B4C016380590C3FC9BB7E5F2C73EC3
 ```
 
 ## Support and testing
