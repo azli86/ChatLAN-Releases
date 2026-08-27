@@ -83,7 +83,7 @@ Get-FileHash -Algorithm SHA256 ".\ChatLAN.Setup.2.14.0.exe"
 Expected SHA-256 for ChatLAN 2.14.0:
 
 ```text
-40dbcf3f8db60f7ce67f26c20c1ad03188b2b94865e912193e44ffc8965cd159
+1c273b9718976fe7c4de62f3d1ecd8323aa37d5ce7797df880720f6d3cf5e01a
 ```
 
 ## Support and testing
